@@ -1,4 +1,11 @@
-# iris-singlefeature-classification
+# Project : iris-singlefeature-classification
+
+This project asks: 
+## Can a single feature really tell us what species of flower we’re looking at?
+
+## Why this matters??
+Because real-world machine learning isn’t always about building the most complex models. Sometimes it’s about starting simple, but asking what the minimum information needed is to make a decision. This project explores that idea in the classic Iris dataset
+
 
 ## The Story
 The Iris dataset is one of the most famous datasets in machine learning history. Collected by British biologist Ronald Fisher in 1936, it contains measurements of three Iris flower species:
@@ -13,13 +20,6 @@ For each flower, we have four features:
 * Petal width
 
 This dataset is often called the “Hello World” of machine learning because it’s simple, small, and yet surprisingly rich.
-
-This project asks: 
-### Can a single feature really tell us what species of flower we’re looking at?
-
-### Why??
-Because real-world machine learning isn’t always about building the most complex models. Sometimes it’s about starting simple, but asking what the minimum information needed is to make a decision. This project explores that idea in the classic Iris dataset
-
 
 ## Goal
 The goal of this project is to test whether one feature at a time can accurately classify flowers in the Iris dataset and to find which feature performs best.
