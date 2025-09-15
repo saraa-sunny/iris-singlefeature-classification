@@ -22,8 +22,10 @@ For each flower, we have four features:
 This dataset is often called the “Hello World” of machine learning because it’s simple, small, and yet surprisingly rich.
 
 ## Goal
-The goal of this project is to test whether one feature at a time can accurately classify flowers in the Iris dataset and to find which feature performs best.
+This project aims to find out if a single feature from the Iris dataset can be used to accurately classify flower species.
 
+We'll test each of the four features - sepal length, sepal width, petal length, and petal width - individually. 
+By building a simple model for each one, we'll see which feature is the most effective at predicting the flower's species. 
 
 ## Process
 * Load the dataset.
