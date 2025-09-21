@@ -1,13 +1,13 @@
-# Project : iris-singlefeature-classification
+# Project : Iris Single-feature Classification🌸
 
 This project asks: 
-## Can a single feature really tell us what species of flower we’re looking at?
+### Can a single feature really tell us what species of flower we’re looking at?
 
-## Why this matters??
+## 🔍Why this matters??
 Because real-world machine learning isn’t always about building the most complex models. Sometimes it’s about starting simple, but asking what the minimum information needed is to make a decision. This project explores that idea in the classic Iris dataset.
 
 
-## The Story
+## 📖The Story
 The Iris dataset is one of the most famous datasets in machine learning history. Collected by British biologist Ronald Fisher in 1936, it contains measurements of three Iris flower species:
 * Iris setosa
 * Iris versicolor
@@ -24,13 +24,13 @@ For each flower, we have four features:
 
 This dataset is often called the “Hello World” of machine learning because it’s simple, small, and yet surprisingly rich.
 
-## Goal
+## 🎯Goal
 This project aims to find out if a single feature from the Iris dataset can be used to accurately classify flower species.
 
 We'll test each of the four features - sepal length, sepal width, petal length, and petal width - individually. 
 By building a simple model for each one, we'll see which feature is the most effective at predicting the flower's species. 
 
-## Process
+## 🛠️Process
 * Load the dataset.
 * Data preprocessing and EDA
 * Split into train/test.
@@ -38,7 +38,7 @@ By building a simple model for each one, we'll see which feature is the most eff
 * Evaluate the results.
 
 
-## Results
+## 📊Results
 * Best single feature: Petal width
 * Accuracy: 94%
   
@@ -46,10 +46,10 @@ By building a simple model for each one, we'll see which feature is the most eff
 
 
 
-## Takeaway
+## 💡Takeaway
 The analysis confirms that a single feature can effectively classify Iris flower species.
 Based on our model training and evaluation, the most effective feature was Petal Width, which achieved a classification accuracy of 94%.
 
-## Next Steps
+## 🔍Next Steps
 * Try different simple models, like a Decision Tree, to see if the results are consistent.
 * Explore the predictive power of feature combinations (eg: Petal Length + Petal Width)
